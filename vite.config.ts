@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/showbooker/', // Change this to your repo name, or '/' for custom domain
+  base: '/109-Show_Booking/', // GitHub Pages base path - matches your repo name
   server: {
     port: 3000,
     open: true

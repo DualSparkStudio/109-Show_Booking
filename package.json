@@ -2,7 +2,7 @@
   "name": "showbooker",
   "version": "2.0.0",
   "type": "module",
-  "homepage": "https://yourusername.github.io/showbooker",
+  "homepage": "https://dualsparkstudio.github.io/109-Show_Booking",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

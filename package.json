@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "deploy": "npm run build && gh-pages -d dist"
+    "verify-build": "node scripts/verify-build.js",
+    "deploy": "npm run build && npm run verify-build && gh-pages -d dist",
+    "clean-deploy": "rmdir /s /q dist 2>nul || rm -rf dist && npm run deploy"
   },
   "dependencies": {
     "react": "^18.3.1",

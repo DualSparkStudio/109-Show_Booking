@@ -1,0 +1,134 @@
+{
+  "shows": [
+    {
+      "id": "1",
+      "slug": "winter-tales-2024",
+      "title": "Winter Tales by the Firelight",
+      "description": "An enchanting evening of storytelling in an intimate candlelit setting. Journey through magical narratives, personal memoirs, and captivating tales that will transport you to another world. Limited seating for an immersive experience.",
+      "image": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=1200&h=800&fit=crop",
+      "videoUrl": null,
+      "date": "2024-07-15",
+      "time": "19:00",
+      "location": "The Storyteller's Loft, Portland",
+      "city": "Portland",
+      "category": "Story Night",
+      "price": 45,
+      "currency": "USD",
+      "totalSeats": 80,
+      "availableSeats": 23,
+      "status": "upcoming",
+      "featured": true
+    },
+    {
+      "id": "2",
+      "slug": "narrative-workshop",
+      "title": "The Art of Storytelling Workshop",
+      "description": "Discover the craft of compelling narratives. Learn how to structure stories, develop characters, and captivate audiences. Includes writing exercises, group storytelling, and personalized feedback. Perfect for aspiring writers and storytellers.",
+      "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=1200&h=800&fit=crop",
+      "videoUrl": null,
+      "date": "2024-08-10",
+      "time": "14:00",
+      "location": "Literary Arts Center, Boston",
+      "city": "Boston",
+      "category": "Workshop",
+      "price": 95,
+      "currency": "USD",
+      "totalSeats": 25,
+      "availableSeats": 8,
+      "status": "upcoming",
+      "featured": true
+    },
+    {
+      "id": "3",
+      "slug": "cozy-evening-stories",
+      "title": "Cozy Evening Story Session",
+      "description": "Join us for a warm, intimate evening of storytelling in a cozy library setting. Sip tea, listen to captivating tales, and connect with fellow story lovers. Each session features a mix of personal stories and timeless narratives.",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&h=800&fit=crop",
+      "videoUrl": null,
+      "date": "2024-08-25",
+      "time": "18:00",
+      "location": "The Book Nook, Seattle",
+      "city": "Seattle",
+      "category": "Story Night",
+      "price": 35,
+      "currency": "USD",
+      "totalSeats": 40,
+      "availableSeats": 15,
+      "status": "upcoming",
+      "featured": false
+    },
+    {
+      "id": "4",
+      "slug": "memoir-reading",
+      "title": "Memoir Night: Stories That Matter",
+      "description": "A special evening dedicated to personal memoirs and true stories. Hear powerful narratives of resilience, adventure, and human connection. Join our community of story enthusiasts for an inspiring night.",
+      "image": "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?w=1200&h=800&fit=crop",
+      "videoUrl": null,
+      "date": "2024-09-05",
+      "time": "19:30",
+      "location": "The Narrative Cafe, Brooklyn",
+      "city": "New York",
+      "category": "Reading",
+      "price": 42,
+      "currency": "USD",
+      "totalSeats": 60,
+      "availableSeats": 18,
+      "status": "upcoming",
+      "featured": false
+    },
+    {
+      "id": "5",
+      "slug": "family-story-hour",
+      "title": "Family Story Hour: Magical Tales",
+      "description": "A special storytelling session for families! Bring your children and enjoy enchanting stories together. Interactive narratives, character voices, and a magical atmosphere that will spark imagination in young and old alike.",
+      "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=1200&h=800&fit=crop",
+      "videoUrl": null,
+      "date": "2024-09-20",
+      "time": "11:00",
+      "location": "Community Story Space, Austin",
+      "city": "Austin",
+      "category": "Family",
+      "price": 25,
+      "currency": "USD",
+      "totalSeats": 100,
+      "availableSeats": 67,
+      "status": "upcoming",
+      "featured": false
+    }
+  ],
+  "influencer": {
+    "name": "Elena Rivers",
+    "username": "@storieswithelena",
+    "bio": "Storyteller, writer, and narrative enthusiast. I believe in the power of stories to connect, heal, and inspire. Through intimate gatherings and workshops, I share tales that matter and help others find their voice.",
+    "followerCount": 890000,
+    "socialLinks": {
+      "youtube": "https://youtube.com/@storieswithelena",
+      "instagram": "https://instagram.com/storieswithelena",
+      "tiktok": "https://tiktok.com/@storieswithelena",
+      "twitter": "https://twitter.com/storieswithelena"
+    },
+    "testimonials": [
+      {
+        "id": 1,
+        "name": "Sarah Mitchell",
+        "text": "Elena's storytelling transformed my evening. Her ability to weave narratives and create such an intimate atmosphere is truly magical. I left feeling inspired and connected.",
+        "rating": 5,
+        "date": "2024-06-15"
+      },
+      {
+        "id": 2,
+        "name": "James Chen",
+        "text": "The workshop opened my eyes to the craft of storytelling. Elena's guidance helped me find my narrative voice. Highly recommend for anyone interested in the art of stories.",
+        "rating": 5,
+        "date": "2024-05-20"
+      },
+      {
+        "id": 3,
+        "name": "Maria Garcia",
+        "text": "Such a warm, inviting experience. The cozy setting and Elena's captivating delivery made me feel like I was part of the story. Can't wait for the next session!",
+        "rating": 5,
+        "date": "2024-04-10"
+      }
+    ]
+  }
+}

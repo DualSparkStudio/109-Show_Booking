@@ -48,8 +48,7 @@ const Shows = () => {
   }, [searchQuery, selectedCity, selectedCategory]);
 
   const handleBookClick = (slug: string) => {
-    // In a real app, this would open a booking modal or external link
-    alert(`Booking for ${slug} - This would open a booking form or external link in production`);
+    navigate(`/booking/${slug}`);
   };
 
   return (
@@ -223,7 +222,7 @@ const Shows = () => {
       </section>
 
       {/* Floating CTA */}
-      <FloatingCTA onBookClick={() => handleBookClick('')} />
+      <FloatingCTA onBookClick={() => navigate('/shows')} />
     </div>
   );
 };

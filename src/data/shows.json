@@ -1,25 +1,6 @@
 {
   "shows": [
     {
-      "id": "1",
-      "slug": "winter-tales-2024",
-      "title": "Winter Tales by the Firelight",
-      "description": "An enchanting evening of storytelling in an intimate candlelit setting. Journey through magical narratives, personal memoirs, and captivating tales that will transport you to another world. Limited seating for an immersive experience.",
-      "image": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=1200&h=800&fit=crop",
-      "videoUrl": null,
-      "date": "2024-07-15",
-      "time": "19:00",
-      "location": "The Storyteller's Loft, Portland",
-      "city": "Portland",
-      "category": "Story Night",
-      "price": 45,
-      "currency": "USD",
-      "totalSeats": 80,
-      "availableSeats": 23,
-      "status": "upcoming",
-      "featured": true
-    },
-    {
       "id": "2",
       "slug": "narrative-workshop",
       "title": "The Art of Storytelling Workshop",
@@ -99,6 +80,7 @@
   "influencer": {
     "name": "Elena Rivers",
     "username": "@storieswithelena",
+    "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop&crop=face",
     "bio": "Storyteller, writer, and narrative enthusiast. I believe in the power of stories to connect, heal, and inspire. Through intimate gatherings and workshops, I share tales that matter and help others find their voice.",
     "followerCount": 890000,
     "socialLinks": {

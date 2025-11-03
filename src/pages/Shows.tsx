@@ -4,7 +4,6 @@ import { motion } from 'framer-motion';
 import { Search, Filter, Calendar, MapPin } from 'lucide-react';
 import showsData from '../data/shows.json';
 import TicketCard from '../components/TicketCard';
-import FloatingCTA from '../components/FloatingCTA';
 
 const Shows = () => {
   const navigate = useNavigate();
@@ -220,9 +219,6 @@ const Shows = () => {
           )}
         </div>
       </section>
-
-      {/* Floating CTA */}
-      <FloatingCTA onBookClick={() => navigate('/shows')} />
     </div>
   );
 };

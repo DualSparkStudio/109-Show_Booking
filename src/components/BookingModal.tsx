@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { X, Calendar, MapPin, Clock, Ticket, User, Mail, Phone } from 'lucide-react';
+import { X, Calendar, MapPin, Ticket, User, Mail, Phone } from 'lucide-react';
 import { format } from 'date-fns';
 
 interface Show {

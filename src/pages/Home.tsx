@@ -1,14 +1,13 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { ArrowRight, Sparkles, TrendingUp, BookOpen, Heart, Mic, Users, UserCircle, User } from 'lucide-react';
+import { ArrowRight, Sparkles, TrendingUp, BookOpen, Heart, Users } from 'lucide-react';
 import showsData from '../data/shows.json';
 import Countdown from '../components/Countdown';
 import TeaserVideo from '../components/TeaserVideo';
 import FloatingCTA from '../components/FloatingCTA';
 import ExitPopup from '../components/ExitPopup';
 import TicketCard from '../components/TicketCard';
-import { format } from 'date-fns';
 
 const Home = () => {
   const navigate = useNavigate();

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Ticket, X } from 'lucide-react';
+import { Ticket } from 'lucide-react';
 
 interface FloatingCTAProps {
   onBookClick: () => void;

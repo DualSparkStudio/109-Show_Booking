@@ -29,7 +29,6 @@ const TicketCard = ({
   date,
   time,
   location,
-  city,
   category,
   price,
   currency,

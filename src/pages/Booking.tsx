@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { X, Calendar, MapPin, Clock, Ticket, User, Mail, Phone, ArrowLeft } from 'lucide-react';
+import { Calendar, MapPin, Ticket, User, Mail, Phone, ArrowLeft } from 'lucide-react';
 import { toast } from 'react-hot-toast';
 import { format } from 'date-fns';
 import showsData from '../data/shows.json';

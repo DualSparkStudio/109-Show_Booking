@@ -184,7 +184,7 @@ const Shows = () => {
                 Found {shows.length} {shows.length === 1 ? 'show' : 'shows'}
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                {shows.map((show, index) => (
+                {shows.map((show) => (
                   <TicketCard
                     key={show.id}
                     {...show}

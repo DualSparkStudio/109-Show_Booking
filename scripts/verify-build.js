@@ -24,7 +24,19 @@ if (!indexHtml.includes('/assets/') && !indexHtml.includes('<script')) {
   process.exit(1);
 }
 
+// Check for .nojekyll file
+const nojekyllPath = path.join(process.cwd(), 'dist', '.nojekyll');
+if (!fs.existsSync(nojekyllPath)) {
+  console.log('⚠️  WARNING: dist/.nojekyll not found');
+  console.log('Creating .nojekyll file...');
+  fs.writeFileSync(nojekyllPath, '');
+  console.log('✅ Created dist/.nojekyll');
+}
+
 console.log('✅ Build verification passed!');
 console.log('✅ dist/index.html contains built assets');
+if (fs.existsSync(nojekyllPath)) {
+  console.log('✅ dist/.nojekyll exists (prevents Jekyll processing)');
+}
 process.exit(0);
 

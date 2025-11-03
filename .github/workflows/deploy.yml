@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch: # Allows manual trigger
 
 jobs:
   build-and-deploy:
@@ -12,6 +13,9 @@ jobs:
       contents: read
       pages: write
       id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -29,7 +33,21 @@ jobs:
         run: npm run build
 
       - name: Ensure .nojekyll exists
-        run: touch dist/.nojekyll
+        run: |
+          touch dist/.nojekyll
+          echo "✅ Created .nojekyll to disable Jekyll processing"
+
+      - name: Verify build output
+        run: |
+          if [ ! -f dist/index.html ]; then
+            echo "❌ ERROR: dist/index.html not found!"
+            exit 1
+          fi
+          if [ ! -f dist/.nojekyll ]; then
+            echo "❌ ERROR: dist/.nojekyll not found!"
+            exit 1
+          fi
+          echo "✅ Build verification passed"
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
